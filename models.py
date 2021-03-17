@@ -1,6 +1,5 @@
 import json
 
-
 class Books:
     def __init__(self):
         try:
@@ -39,7 +38,6 @@ class Books:
         
         sor_books = sorted(self.books, key=lambda book: book["title"])
         return sor_books
-
 
     def delete(self, id):
         book = self.get(id)
