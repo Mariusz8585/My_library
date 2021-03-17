@@ -4,7 +4,6 @@ from models import books
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "nininini"
 
-
 @app.route("/api/v1/books/", methods=["GET"])
 def books_list_api_v1():
     return jsonify(books.all())
