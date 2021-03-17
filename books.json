@@ -1,0 +1,3 @@
+[{"id": 1, "title": "Python instrukcje programisty", "description": "Teoria i zadania ", "year": "2020", "read": true},
+  {"id": 2, "title": "Python w zadaniach", "description": "zbiór zadań na poziomie podstawowym", "year": "2021", "read": false},
+  {"id": 3, "title": "Atlas zbuntowanych", "description": "powieść ", "year": "2012", "read": true}]
